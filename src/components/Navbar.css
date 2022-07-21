@@ -1,0 +1,95 @@
+.navbar {
+  display: flex;
+  height: 80px;
+  background-color: blue;
+  
+}
+
+.logo {
+  display: flex;
+  width: 90px;
+  height: 79px;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  width: 100%;
+}
+
+.Home,
+.Services,
+.Rendezvous,
+.About,
+.Contact {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  padding: 5px 20px;
+  margin: 0 0px;
+  cursor: pointer;
+}
+
+.Signup {
+  border: 1px solid white;
+  border-radius: 9px;
+}
+
+.mobile-menu-icon {
+  display: none;
+}
+
+@media screen and (min-width: 600px) {
+  .logo {
+    margin: 0%;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  .nav-links {
+    display: none;
+  }
+
+  .logo {
+    display: flex;
+    position: absolute;
+    top: 10px;
+    left: 82%;
+    width: 50px;
+    height: 40px;
+  }
+
+  .nav-links-mobile {
+    position: absolute;
+    display: block;
+    list-style: none;
+    background-color: rgba(0, 0, 255, 0.552);
+    left: 0;
+    top: 75px;
+    transition: all 0.5s ease-out;
+    width: 100%;
+  }
+
+  .Home,
+  .Services,
+  .Rendezvous,
+  .About,
+  .Contact {
+    color: white;
+    text-align: center;
+    padding: 32px;
+    width: 100%;
+    transition: all 0.5s ease;
+  }
+
+  .mobile-menu-icon {
+    display: flex;
+    margin: 1%;
+    font-size: 60px;
+    color: white;
+    background-color: blue;
+    border: none;
+    outline: none;
+  }
+}
