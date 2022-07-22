@@ -1,8 +1,10 @@
 .dallog {
   display: flex;
   justify-content: center;
+  
 }
 h1 {
+  color:green;
   display: flex;
   justify-content: center;
   text-align: center;
@@ -45,4 +47,33 @@ img {
   justify-content: space-around;
   margin: 0% 20%;
   padding: 0% 10%;
+}
+.paraph{
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+color:coral;
+text-decoration:underline;
+}
+.paraph2{
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 15px;
+color:coral;
+
+
+}
+.paragraphe{
+ background-color: whitesmoke;
+  border: 1px solid ;
+  box-sizing: border-box;
+  border-radius: 10px;
+
+}
+.imagee{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
 }

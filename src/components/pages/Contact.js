@@ -36,8 +36,10 @@ const Contact = () => {
       </div>
       <div className={styles.detail}>
         <p style={{ padding: '10px' }}>
-          L'équipe est composée de cinq développeurs en herbe : Julie, Quentin,
-          Rayane, Adnan et Mylène
+        Pharma Dal est une entreprise pharmaceutique spécialisée dans la
+            distribution en gros et la vente des médicaments (princeps et
+            génériques), des dispositifs médicaux et la parapharmacie
+            (cosmétiques, hygiène et soins) de toutes les spécialités.
         </p>
        
       </div>
