@@ -1,8 +1,7 @@
 .navbar {
   display: flex;
   height: 80px;
-  background-color: blue;
-  
+  background-color: rgb(23, 130, 23);
 }
 
 .logo {
@@ -31,11 +30,6 @@
   cursor: pointer;
 }
 
-.Signup {
-  border: 1px solid white;
-  border-radius: 9px;
-}
-
 .mobile-menu-icon {
   display: none;
 }
@@ -54,21 +48,21 @@
   .logo {
     display: flex;
     position: absolute;
-    top: 10px;
-    left: 82%;
-    width: 50px;
-    height: 40px;
+    top: 5px;
+    left: 81%;
+    width: 89px;
+    height: 67px;
   }
 
   .nav-links-mobile {
     position: absolute;
     display: block;
     list-style: none;
-    background-color: rgba(0, 0, 255, 0.552);
-    left: 0;
-    top: 75px;
+    background-color:rgb(49, 184, 49);
+    text-align: center;
+    top: 64px;
     transition: all 0.5s ease-out;
-    width: 100%;
+    width: 92%;
   }
 
   .Home,
@@ -88,7 +82,7 @@
     margin: 1%;
     font-size: 60px;
     color: white;
-    background-color: blue;
+    background-color: rgb(23, 130, 23);
     border: none;
     outline: none;
   }

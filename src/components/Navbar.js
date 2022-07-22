@@ -6,6 +6,10 @@ const Navbar = () => {
   const [isMobile, setIsMobile] = useState(false);
   return (
     <div className="navbar">
+    <div className="logo">
+        <img src="../img/logo_dal.png" alt=""></img>
+      </div>
+
       <ul
         className={isMobile ? "nav-links-mobile" : "nav-links"}
         onClick={() => setIsMobile(false)}
@@ -14,16 +18,16 @@ const Navbar = () => {
           <li>ACCUEIL</li>
         </NavLink>
         <NavLink to="/services" className="Services">
-          <li>Nos Services</li>
+          <li>NOS SERVICES</li>
         </NavLink>
         <NavLink to="/rendezvous" className="Rendezvous">
-          <li>Prendre RDV</li>
+          <li>PRENDRE RDV</li>
         </NavLink>
         <NavLink to="/about" className="About">
-          <li>About</li>
+          <li>ABOUT</li>
         </NavLink>
         <NavLink to="/contact" className="Contact">
-          <li>contact</li>
+          <li>CONTACT</li>
         </NavLink>
       </ul>
       <button
